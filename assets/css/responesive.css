@@ -1,0 +1,60 @@
+/* PC */
+@media (min-width: 64em) {
+}
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .section-1 {
+        padding: 64px;
+        overflow: hidden;
+    }
+    .container-custom {
+        width: 10% !important;
+        display: block;
+        max-width: 90% !important;
+    }
+    .section-6 h2 {
+        width: 100%;
+    }
+    .content-section7 div {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .content-section7 div div {
+        margin-bottom: 16px;
+    }
+    .section2-item {
+        border: none;
+    }
+    .section-8 {
+        padding: 32px 64px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 46.1875em) {
+    .btn-custom-sec5 {
+        width: 100%;
+    }
+
+    .section-6 h2 {
+        width: 100%;
+    }
+
+    .section6__padding {
+        padding: 8px 16px !important;
+    }
+
+    .section-6 div img {
+        width: 20%;
+    }
+
+    .text-name {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .text-intro {
+        font-size: 20px;
+    }
+}
